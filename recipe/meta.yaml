@@ -1,5 +1,5 @@
 {% set name = "currencyconverter" %}
-{% set version = "0.18.23" %}
+{% set version = "0.18.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6a6546e7aacf9478d4ff129e95ba1bea5e90987db56daca99985cf84d4e88a7a
+  sha256: d493d0c792abbde9c610e8603ea600a2d4085715c324c0bc2de7d433c90e3329
 
 build:
   noarch: python
